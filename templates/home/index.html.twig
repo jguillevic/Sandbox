@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Le bac à sable!{% endblock %}
+
+{% block body %}
+<h1>Bienvenue sur le bac à sable !</h1>
+
+<h2>Fonctionnalités :</h2>
+<ul>
+<li><a href="{{ path('weather') }}">Météo</a></li>
+<li><a href="{{ path('reserveid') }}">Réservation d'identifiants</a></li>
+</ul>
+{% endblock %}
